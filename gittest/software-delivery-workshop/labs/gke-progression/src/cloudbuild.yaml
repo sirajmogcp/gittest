@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'us-west2-docker.pkg.dev/qwiklabs-gcp-02-ce354651d3d4/quickstart-docker-repo/quickstart-image:tag1', './src' ]
+images:
+- 'us-west2-docker.pkg.dev/qwiklabs-gcp-02-ce354651d3d4/quickstart-docker-repo/quickstart-image:tag1'
